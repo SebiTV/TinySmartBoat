@@ -2,7 +2,7 @@
 
 var connected_flag=0	
 var reconnectTimeout = 2000;
-var host="tsbbroker.qsol.de";
+var host=""; //Put your host idress here
 var port=9001;
 var row=0;
 var out_msg="";

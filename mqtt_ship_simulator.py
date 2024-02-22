@@ -13,14 +13,14 @@ message["s1sot"] = 0
 message["voltage"] = 13.4
 message["wd1"] = False
 man_on = False
-broker = 'tsbbroker.qsol.de'
+broker = '' #Put your Host idress here
 port = 1883
-topic = "tinysmartboat/schiff1/state"
-topic_sub = "tinysmartboat/schiff1/switches"
+topic = "tinysmartboat/schiff1/state"   #Put the right topic here
+topic_sub = "tinysmartboat/schiff1/switches"    #Put the right topic here
 # Generate a Client ID with the publish prefix.
 client_id = f'publish-{random.randint(0, 1000)}'
-username = 'schiff1'
-password = 'schiff1pw'
+username = '' #Put your username here
+password = '' #Put your password here
 
 def connect_mqtt():
     
