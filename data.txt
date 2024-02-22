@@ -1,0 +1,1 @@
+{"msgtime": 1708598604000, "s1": true, "s1set": 1708597462720, "s1sot": 0, "voltage": 12.0, "wd1": true}
